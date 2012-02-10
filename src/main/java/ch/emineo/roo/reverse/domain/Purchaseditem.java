@@ -10,4 +10,8 @@ import org.springframework.roo.addon.tostring.RooToString;
 @RooJpaActiveRecord(versionField = "", table = "purchaseditem")
 @RooDbManaged(automaticallyDelete = true)
 public class Purchaseditem {
+	
+	public void testone() {
+		
+	}
 }
