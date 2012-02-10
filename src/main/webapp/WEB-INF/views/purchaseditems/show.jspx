@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ch_emineo_roo_reverse_domain_Purchaseditem" object="${purchaseditem}" path="/purchaseditems" z="h30VD/pB8dJMOrA2w3ySZX0Pnl0=">
+        <field:display field="users" id="s_ch_emineo_roo_reverse_domain_Purchaseditem_users" object="${purchaseditem}" z="ifjNqJl8CJsm8vlvxP44REG5fsQ="/>
+        <field:display field="productthemeProductthemeid" id="s_ch_emineo_roo_reverse_domain_Purchaseditem_productthemeProductthemeid" object="${purchaseditem}" z="fRxDrFEkla7GwcySn33qmn69Ij8="/>
+        <field:display field="productvariantProductvariantid" id="s_ch_emineo_roo_reverse_domain_Purchaseditem_productvariantProductvariantid" object="${purchaseditem}" z="QJSvWp83ovdT/YFt/WzvR2zt1Y4="/>
+        <field:display field="productProductid" id="s_ch_emineo_roo_reverse_domain_Purchaseditem_productProductid" object="${purchaseditem}" z="VGNT+4TgHsf9EW8kHxd6TKPdsR0="/>
+        <field:display field="promotionreferencePromotionid" id="s_ch_emineo_roo_reverse_domain_Purchaseditem_promotionreferencePromotionid" object="${purchaseditem}" z="baMXGjWxDmqeIIpP2pEGBRKiBQ8="/>
+        <field:display date="true" dateTimePattern="${purchaseditem_acquisitiondate_date_format}" field="acquisitiondate" id="s_ch_emineo_roo_reverse_domain_Purchaseditem_acquisitiondate" object="${purchaseditem}" z="MhYckhwiNR/WY67/29bURJX7ej8="/>
+        <field:display field="online" id="s_ch_emineo_roo_reverse_domain_Purchaseditem_online" object="${purchaseditem}" z="nbIwPfU/fW2KSjKWinlwLCjg5x0="/>
+        <field:display field="promotion" id="s_ch_emineo_roo_reverse_domain_Purchaseditem_promotion" object="${purchaseditem}" z="m+qFSdNPtjSwU59+hmWQrWS9SiA="/>
+        <field:display field="public1" id="s_ch_emineo_roo_reverse_domain_Purchaseditem_public1" object="${purchaseditem}" z="pfKz/Xqib/F4kQu5sTjYpXTE7pI="/>
+        <field:display field="remindersent" id="s_ch_emineo_roo_reverse_domain_Purchaseditem_remindersent" object="${purchaseditem}" z="BtnifG2Xh6w4MT9/Jbfjz/jKxxU="/>
+        <field:display field="type" id="s_ch_emineo_roo_reverse_domain_Purchaseditem_type" object="${purchaseditem}" z="Vw6otntiCHw6Pxp99j0s7fsyo04="/>
+    </page:show>
+</div>

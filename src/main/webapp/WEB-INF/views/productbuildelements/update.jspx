@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ch_emineo_roo_reverse_domain_Productbuildelement" idField="productbuildelementid" modelAttribute="productbuildelement" path="/productbuildelements" versionField="none" z="F/ZQ+4m38dKFfPvsgQPVWFLqids=">
+        <field:simple field="productbuildProductbuildelements" id="c_ch_emineo_roo_reverse_domain_Productbuildelement_productbuildProductbuildelements" messageCode="entity_reference_not_managed" messageCodeAttribute="Productbuild Productbuildelement" z="BqzdPJWSZBmBPkXC3ubGOdMHCQc="/>
+        <field:simple field="productbuildelementAttributes" id="c_ch_emineo_roo_reverse_domain_Productbuildelement_productbuildelementAttributes" messageCode="entity_reference_not_managed" messageCodeAttribute="Productbuildelement Attribute" z="5N0wbqWRC547W/kalmhkA0GTRUk="/>
+        <field:simple field="productbuildelementContents" id="c_ch_emineo_roo_reverse_domain_Productbuildelement_productbuildelementContents" messageCode="entity_reference_not_managed" messageCodeAttribute="Productbuildelement Content" z="foM1AER+EjIWoBUGUleCLTrHWAI="/>
+        <field:input field="contenttype" id="c_ch_emineo_roo_reverse_domain_Productbuildelement_contenttype" required="true" z="6QNTWKh+ZGjyQgutjrH1rIghMhQ="/>
+        <field:input field="language" id="c_ch_emineo_roo_reverse_domain_Productbuildelement_language" required="true" z="x+aSuBLpsrDqcX9+JE+UyRHWyhk="/>
+        <field:checkbox field="online" id="c_ch_emineo_roo_reverse_domain_Productbuildelement_online" z="KjPwryOHTG0eoeCi7FY6g99190A="/>
+        <field:checkbox field="public1" id="c_ch_emineo_roo_reverse_domain_Productbuildelement_public1" z="BRfpbqYjNo9/SurCsGpKFF2IgEo="/>
+        <field:checkbox field="sample" id="c_ch_emineo_roo_reverse_domain_Productbuildelement_sample" z="ffSZG/I0c7Jg/Ausos+DC1cGRMU="/>
+    </form:update>
+</div>

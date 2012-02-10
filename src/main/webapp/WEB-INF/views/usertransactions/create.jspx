@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create compositePkField="id" id="fc_ch_emineo_roo_reverse_domain_UserTransaction" modelAttribute="userTransaction" path="/usertransactions" render="${empty dependencies}" z="yP4pzWLcK2MQE4DTNCYThJmb3Ig=">
+        <field:input disableFormBinding="true" field="id.userUserid" id="c_ch_emineo_roo_reverse_domain_UserTransaction_id_userUserid" required="true" validationMessageCode="field_invalid_integer" z="S7bmHqW0agRKXu5b1F6M4D0VUyk="/>
+        <field:input disableFormBinding="true" field="id.idx" id="c_ch_emineo_roo_reverse_domain_UserTransaction_id_idx" required="true" validationMessageCode="field_invalid_integer" z="27I4zsmwH/QZfhxXmlOMqDqcNlc="/>
+        <field:select field="transactionsTransactionid" id="c_ch_emineo_roo_reverse_domain_UserTransaction_transactionsTransactionid" itemValue="transactionid" items="${transactions}" path="/transactions" z="o2JIfioiTEuFEgvPt/aga0/+b3U="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ch_emineo_roo_reverse_domain_UserTransaction" render="${not empty dependencies}" z="d4PBEuqp8sGQcXaaSknbI04oRDk="/>
+</div>

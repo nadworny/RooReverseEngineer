@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ch_emineo_roo_reverse_domain_Deliveryinfo" modelAttribute="deliveryinfo" path="/deliveryinfoes" render="${empty dependencies}" z="SsrC2WJylKhhs60JPP0S3prqMpk=">
+        <field:simple field="contents" id="c_ch_emineo_roo_reverse_domain_Deliveryinfo_contents" messageCode="entity_reference_not_managed" messageCodeAttribute="Content" z="/o4UE8wOgr9c0UIvK94JDZiukXQ="/>
+        <field:input field="deliveryinterval" id="c_ch_emineo_roo_reverse_domain_Deliveryinfo_deliveryinterval" validationMessageCode="field_invalid_integer" z="amtU9UrPHmRevhCMyb78/F2UmcA="/>
+        <field:input field="deliveryreferencetype" id="c_ch_emineo_roo_reverse_domain_Deliveryinfo_deliveryreferencetype" validationMessageCode="field_invalid_integer" z="/0lozQncOMkoaUS2pHf+yfnHbNA="/>
+        <field:input field="elapsetimespan" id="c_ch_emineo_roo_reverse_domain_Deliveryinfo_elapsetimespan" validationMessageCode="field_invalid_integer" z="TtRyA12+2voBTdR+yCDUT4IPrFE="/>
+        <field:input field="validtimespan" id="c_ch_emineo_roo_reverse_domain_Deliveryinfo_validtimespan" validationMessageCode="field_invalid_integer" z="FEmzENtFJgVfiX3fzoPTNiHHkcc="/>
+        <field:datetime dateTimePattern="${deliveryinfo_seasonstart_date_format}" field="seasonstart" id="c_ch_emineo_roo_reverse_domain_Deliveryinfo_seasonstart" z="5nXqXcXxHqHJ1V5OAwyRkelceRY="/>
+        <field:datetime dateTimePattern="${deliveryinfo_seasonend_date_format}" field="seasonend" id="c_ch_emineo_roo_reverse_domain_Deliveryinfo_seasonend" z="bh2q4O7aE80WNo8MoUUriFMYd/I="/>
+        <field:datetime dateTimePattern="${deliveryinfo_deliverytimestamp_date_format}" field="deliverytimestamp" id="c_ch_emineo_roo_reverse_domain_Deliveryinfo_deliverytimestamp" z="65SaWi0zltI0jOE/yiVWnuN7c/s="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ch_emineo_roo_reverse_domain_Deliveryinfo" render="${not empty dependencies}" z="6OK8gFR4/s3y6ZKu+Awb4en0rH4="/>
+</div>

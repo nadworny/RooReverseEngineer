@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ch_emineo_roo_reverse_domain_Content" items="${contents}" z="4lvjgdk8S8eGQJrcdcDLiyasTXM=">
+        <table:table data="${contents}" id="l_ch_emineo_roo_reverse_domain_Content" path="/contents" typeIdFieldName="contentid" z="RVD5NHLvb8A4dYZWHu31PKO4VQs=">
+            <table:column id="c_ch_emineo_roo_reverse_domain_Content_deliveryinfoFk" property="deliveryinfoFk" z="SY7QMccaDN0HFRqPQe9cMY/qtss="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Content_descriptionAttributeid" property="descriptionAttributeid" z="TdbLmakfSl2gMVG55XsNh5tb8bs="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Content_contentdeliverytype" property="contentdeliverytype" z="xmNYn1rmlmkIjyDLyTA6jiBLfpY="/>
+            <table:column date="true" dateTimePattern="${content_deliverytime_date_format}" id="c_ch_emineo_roo_reverse_domain_Content_deliverytime" property="deliverytime" z="26L6S5/MaPxKAhOKr/+vLpSqENA="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Content_language" property="language" z="/+J/iA+cLDs6pKs27U1d93bWnK8="/>
+        </table:table>
+    </page:list>
+</div>

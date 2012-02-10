@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ch_emineo_roo_reverse_domain_Message" items="${messages}" z="QIjAz+WyMhNh6QtUCdd4ZoCAMZo=">
+        <table:table data="${messages}" id="l_ch_emineo_roo_reverse_domain_Message" path="/messages" typeIdFieldName="messageid" z="aO1jTkjds4h1xmoNG+n97TO+fHQ=">
+            <table:column date="true" dateTimePattern="${message_creationtime_date_format}" id="c_ch_emineo_roo_reverse_domain_Message_creationtime" property="creationtime" z="JaWCXDtSRAc2wgwujBOFXu44HXI="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Message_messagetext" property="messagetext" z="p66GdC6QXDhmala9PseSCZcY5PM="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Message_online" property="online" z="gAa4eWL18bTda2wuGIb2zLWvCrc="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Message_public1" property="public1" z="HPmtZrMhu6qbfUy1Z2w+ALuwUOg="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Message_recipient" property="recipient" z="Sc2ZE38HlKsnK6lV6xtkys8JyDE="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Message_subject" property="subject" z="NNNcPoASxpStbbCmumMOIBU8A5o="/>
+        </table:table>
+    </page:list>
+</div>

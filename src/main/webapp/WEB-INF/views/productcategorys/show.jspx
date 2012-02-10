@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ch_emineo_roo_reverse_domain_Productcategory" object="${productcategory}" path="/productcategorys" z="1LIYe0ZpfFwsZeN5D8qF60JgITs=">
+        <field:display field="online" id="s_ch_emineo_roo_reverse_domain_Productcategory_online" object="${productcategory}" z="ouN2PjLFcUqfcO66Qmdr+lOzldU="/>
+        <field:display field="picturepath" id="s_ch_emineo_roo_reverse_domain_Productcategory_picturepath" object="${productcategory}" z="/XWTaE/HIpgrAl1zeybJ9pSL6pc="/>
+        <field:display field="public1" id="s_ch_emineo_roo_reverse_domain_Productcategory_public1" object="${productcategory}" z="phfNve79xmQjm/25CnIJFCEYSYQ="/>
+    </page:show>
+</div>

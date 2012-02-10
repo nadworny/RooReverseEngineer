@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ch_emineo_roo_reverse_domain_Promotion" modelAttribute="promotion" path="/promotions" render="${empty dependencies}" z="KhlQqhVNhwYgoJjWxSdbBuu79p8=">
+        <field:simple field="promotioncodes" id="c_ch_emineo_roo_reverse_domain_Promotion_promotioncodes" messageCode="entity_reference_not_managed" messageCodeAttribute="Promotioncode" z="33PFZSUCw4QeM9SxqhdkgcRCOCM="/>
+        <field:simple field="purchaseditems" id="c_ch_emineo_roo_reverse_domain_Promotion_purchaseditems" messageCode="entity_reference_not_managed" messageCodeAttribute="Purchaseditem" z="IIPflRSeZNBsUA+NPVmQpzjuaS0="/>
+        <field:select field="productthemeProductthemeid" id="c_ch_emineo_roo_reverse_domain_Promotion_productthemeProductthemeid" itemValue="productthemeid" items="${productthemes}" path="/productthemes" z="eSDLhueTRE3yhKSiqyC1ZdhFyXg="/>
+        <field:select field="productProductid" id="c_ch_emineo_roo_reverse_domain_Promotion_productProductid" itemValue="productid" items="${products}" path="/products" z="AXbnWBALnaKOp56Tq2Hu+ZD6si4="/>
+        <field:checkbox field="online" id="c_ch_emineo_roo_reverse_domain_Promotion_online" z="dlzRBATfVS3KubcNpiY89AjK9J8="/>
+        <field:datetime dateTimePattern="${promotion_promotionend_date_format}" field="promotionend" id="c_ch_emineo_roo_reverse_domain_Promotion_promotionend" required="true" z="clO4DPxosBn2bH6CPSxDtExsMGY="/>
+        <field:input field="promotionname" id="c_ch_emineo_roo_reverse_domain_Promotion_promotionname" required="true" z="ysFgefeMbFcjaCkzlYE5wRa4aiM="/>
+        <field:datetime dateTimePattern="${promotion_promotionstart_date_format}" field="promotionstart" id="c_ch_emineo_roo_reverse_domain_Promotion_promotionstart" required="true" z="cYbmvTao/Ejn5jDSUEs2G6tTT9w="/>
+        <field:checkbox field="public1" id="c_ch_emineo_roo_reverse_domain_Promotion_public1" z="ypW6TuSmGl/eZPbIZlG2hCKAjmI="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ch_emineo_roo_reverse_domain_Promotion" render="${not empty dependencies}" z="+ZI17k4HSnvB65UEW7nDX2TnV/Q="/>
+</div>

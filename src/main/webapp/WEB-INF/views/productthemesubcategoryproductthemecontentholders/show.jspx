@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ch_emineo_roo_reverse_domain_ProductthemesubcategoryProductthemecontentholder" object="${productthemesubcategoryproductthemecontentholder}" path="/productthemesubcategoryproductthemecontentholders" z="+qznnKaEzDu0XG10ZIs0lPxz+54=">
+        <field:display field="productthemesubcategoryProductthemesubcategoryid" id="s_ch_emineo_roo_reverse_domain_ProductthemesubcategoryProductthemecontentholder_productthemesubcategoryProductthemesubcategoryid" object="${productthemesubcategoryproductthemecontentholder}" z="6qQHF4mGcPH/M3PrQN/gctYMCUE="/>
+        <field:display field="productthemecontentholdersProductthemecontentholderid" id="s_ch_emineo_roo_reverse_domain_ProductthemesubcategoryProductthemecontentholder_productthemecontentholdersProductthemecontentholderid" object="${productthemesubcategoryproductthemecontentholder}" z="fN165j1fK24QJfqwOEvo8nU34Io="/>
+    </page:show>
+</div>

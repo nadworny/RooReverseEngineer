@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ch_emineo_roo_reverse_domain_ProductbuildAttribute" object="${productbuildattribute}" path="/productbuildattributes" z="lfBI+HInLQzoin/bRgX48Skjl4A=">
+        <field:display field="productbuildProductbuildid" id="s_ch_emineo_roo_reverse_domain_ProductbuildAttribute_productbuildProductbuildid" object="${productbuildattribute}" z="n4FbR6bmWEioZH9pHdTwHzVYzyw="/>
+        <field:display field="attributesAttributeid" id="s_ch_emineo_roo_reverse_domain_ProductbuildAttribute_attributesAttributeid" object="${productbuildattribute}" z="gCHN99Re58hY5N9ooayY87JPlIY="/>
+    </page:show>
+</div>

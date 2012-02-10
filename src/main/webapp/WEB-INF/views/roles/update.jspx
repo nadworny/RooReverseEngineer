@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ch_emineo_roo_reverse_domain_Role" idField="roleid" modelAttribute="role" path="/roles" versionField="none" z="GCFrm86uc4EgGyth3ZaeBa3EYMQ=">
+        <field:simple field="userRoles" id="c_ch_emineo_roo_reverse_domain_Role_userRoles" messageCode="entity_reference_not_managed" messageCodeAttribute="User Role" z="MNurxYeCttOVK+/qs3Tx2QOGQuc="/>
+        <field:input field="name" id="c_ch_emineo_roo_reverse_domain_Role_name" z="e0qhuWBoSnooWK1j88OrzOnJqRU="/>
+        <field:checkbox field="online" id="c_ch_emineo_roo_reverse_domain_Role_online" z="xOww3CeDw2f/a5/ec/oOb9ZoZR8="/>
+        <field:checkbox field="public1" id="c_ch_emineo_roo_reverse_domain_Role_public1" z="KLcGd0RnUaQ+AD7cWcjRE5qH42Y="/>
+    </form:update>
+</div>

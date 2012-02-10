@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="promotioncodes/list">
+        <put-attribute name="body" value="/WEB-INF/views/promotioncodes/list.jspx"/>
+    </definition>
+<definition extends="default" name="promotioncodes/show">
+        <put-attribute name="body" value="/WEB-INF/views/promotioncodes/show.jspx"/>
+    </definition>
+<definition extends="default" name="promotioncodes/create">
+        <put-attribute name="body" value="/WEB-INF/views/promotioncodes/create.jspx"/>
+    </definition>
+<definition extends="default" name="promotioncodes/update">
+        <put-attribute name="body" value="/WEB-INF/views/promotioncodes/update.jspx"/>
+    </definition>
+</tiles-definitions>

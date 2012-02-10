@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ch_emineo_roo_reverse_domain_Productcategory" idField="productcategoryid" modelAttribute="productcategory" path="/productcategorys" versionField="none" z="rRc+I8A4DCW7vk64UUWULHg08dc=">
+        <field:simple field="productcategoryAttributes" id="c_ch_emineo_roo_reverse_domain_Productcategory_productcategoryAttributes" messageCode="entity_reference_not_managed" messageCodeAttribute="Productcategory Attribute" z="LpzCPc9+Pf47fApzryW7FPDmL1Q="/>
+        <field:simple field="productcategoryProductsubcategories" id="c_ch_emineo_roo_reverse_domain_Productcategory_productcategoryProductsubcategories" messageCode="entity_reference_not_managed" messageCodeAttribute="Productcategory Productsubcategory" z="bs5jpRYcv2PJ2qbJh1RmrLCXoFc="/>
+        <field:checkbox field="online" id="c_ch_emineo_roo_reverse_domain_Productcategory_online" z="+/+WXHTUaat4nWVzPlIS+8IOGf4="/>
+        <field:input field="picturepath" id="c_ch_emineo_roo_reverse_domain_Productcategory_picturepath" z="HbUMxIi8UNpjnIR2GfgWiadxKW4="/>
+        <field:checkbox field="public1" id="c_ch_emineo_roo_reverse_domain_Productcategory_public1" z="w6SxEqb8K/2SMfyfHYWujPVVFzI="/>
+    </form:update>
+</div>

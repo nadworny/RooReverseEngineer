@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ch_emineo_roo_reverse_domain_Product" modelAttribute="product" path="/products" render="${empty dependencies}" z="Z/usPxE+lD0sr/iIRaw+vFBMVec=">
+        <field:simple field="productAttributes" id="c_ch_emineo_roo_reverse_domain_Product_productAttributes" messageCode="entity_reference_not_managed" messageCodeAttribute="Product Attribute" z="0X/lJRXzL0wtTxqGObCGCxMdNmA="/>
+        <field:simple field="productProductvariants" id="c_ch_emineo_roo_reverse_domain_Product_productProductvariants" messageCode="entity_reference_not_managed" messageCodeAttribute="Product Productvariant" z="BmhnEDhnHcYTbLmhSGhIg7Y8Mzw="/>
+        <field:simple field="productsubcategoryProducts" id="c_ch_emineo_roo_reverse_domain_Product_productsubcategoryProducts" messageCode="entity_reference_not_managed" messageCodeAttribute="Productsubcategory Product" z="4jyqd3SQBNAwvvsHnqNNeV0yoj0="/>
+        <field:simple field="promotions" id="c_ch_emineo_roo_reverse_domain_Product_promotions" messageCode="entity_reference_not_managed" messageCodeAttribute="Promotion" z="NUzDRiQj4nGFyFGrw/yyUEfwbUE="/>
+        <field:simple field="purchaseditems" id="c_ch_emineo_roo_reverse_domain_Product_purchaseditems" messageCode="entity_reference_not_managed" messageCodeAttribute="Purchaseditem" z="WphlblV3IrQY17LAM3cuiTzVrB8="/>
+        <field:select field="productbuildFk" id="c_ch_emineo_roo_reverse_domain_Product_productbuildFk" itemValue="productbuildid" items="${productbuilds}" path="/productbuilds" z="woaf1qvtqnOG7gUsgFZ0A1IlfU0="/>
+        <field:checkbox field="online" id="c_ch_emineo_roo_reverse_domain_Product_online" z="twCaiV0WWRIzppKmLvb/ODpMqto="/>
+        <field:input field="picturepath" id="c_ch_emineo_roo_reverse_domain_Product_picturepath" z="gL8jPx7nBZR54w7xv+QmyLrDrzE="/>
+        <field:checkbox field="public1" id="c_ch_emineo_roo_reverse_domain_Product_public1" z="H/3Mc/R4ZKXG/+oz2gX2vt5NOJ8="/>
+        <field:checkbox field="sample" id="c_ch_emineo_roo_reverse_domain_Product_sample" z="ROYhSarZxxIltY5QmAOZNEKLDWA="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ch_emineo_roo_reverse_domain_Product" render="${not empty dependencies}" z="Zi5bOm/By7zaJG8Mep25Adv4Z4Y="/>
+</div>

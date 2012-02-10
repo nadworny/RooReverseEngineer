@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ch_emineo_roo_reverse_domain_Productsubcategory" idField="productsubcategoryid" modelAttribute="productsubcategory" path="/productsubcategorys" versionField="none" z="RJY066mg1PZC/WFQpI5BvcGwrVk=">
+        <field:simple field="productcategoryProductsubcategories" id="c_ch_emineo_roo_reverse_domain_Productsubcategory_productcategoryProductsubcategories" messageCode="entity_reference_not_managed" messageCodeAttribute="Productcategory Productsubcategory" z="cMv1HObYorhkUsmGrWW3CxIMBaU="/>
+        <field:simple field="productsubcategoryAttributes" id="c_ch_emineo_roo_reverse_domain_Productsubcategory_productsubcategoryAttributes" messageCode="entity_reference_not_managed" messageCodeAttribute="Productsubcategory Attribute" z="xz8Vcs/EKUgZC2lgfI8V32+Rydo="/>
+        <field:simple field="productsubcategoryProducts" id="c_ch_emineo_roo_reverse_domain_Productsubcategory_productsubcategoryProducts" messageCode="entity_reference_not_managed" messageCodeAttribute="Productsubcategory Product" z="g4A2KRVOI8C/NRgixWdgQp4C92A="/>
+        <field:checkbox field="online" id="c_ch_emineo_roo_reverse_domain_Productsubcategory_online" z="TvmC4YAfZ+7Uq0D7uB/DUCy7BrE="/>
+        <field:input field="picturepath" id="c_ch_emineo_roo_reverse_domain_Productsubcategory_picturepath" z="3CpefySBHCxKP1uV652kh1fwEwc="/>
+        <field:checkbox field="public1" id="c_ch_emineo_roo_reverse_domain_Productsubcategory_public1" z="h0DBeZBu6q14s42r6e3DiLm5pxI="/>
+    </form:update>
+</div>

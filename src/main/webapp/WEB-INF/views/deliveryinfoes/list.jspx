@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ch_emineo_roo_reverse_domain_Deliveryinfo" items="${deliveryinfoes}" z="120o6hv4vxfsz+ndiA3PRwynm/c=">
+        <table:table data="${deliveryinfoes}" id="l_ch_emineo_roo_reverse_domain_Deliveryinfo" path="/deliveryinfoes" typeIdFieldName="deliveryinfoid" z="s3xaNaUxEyY2bLxALHKr8iTFHEQ=">
+            <table:column id="c_ch_emineo_roo_reverse_domain_Deliveryinfo_deliveryinterval" property="deliveryinterval" z="J16DhI8XIdexwx2aCSzjHX0zK9Q="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Deliveryinfo_deliveryreferencetype" property="deliveryreferencetype" z="ItXqbDWAG7ldo3xgF/wJynKHXg8="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Deliveryinfo_elapsetimespan" property="elapsetimespan" z="wqGUJvvvOGjOhB1uISLjuDWs/pc="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Deliveryinfo_validtimespan" property="validtimespan" z="o+f7bD7kReDKbc6zqTHbYvTA9wk="/>
+            <table:column date="true" dateTimePattern="${deliveryinfo_seasonstart_date_format}" id="c_ch_emineo_roo_reverse_domain_Deliveryinfo_seasonstart" property="seasonstart" z="pjKNY7flIZFFxR/tgqmRNZBzwz8="/>
+        </table:table>
+    </page:list>
+</div>

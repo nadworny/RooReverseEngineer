@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ch_emineo_roo_reverse_domain_Subscriptiontype" object="${subscriptiontype}" path="/subscriptiontypes" z="e/Lb9tn/uNp59KwgwcDUxAT8C2g=">
+        <field:display field="online" id="s_ch_emineo_roo_reverse_domain_Subscriptiontype_online" object="${subscriptiontype}" z="Y81UDeLbp9hzjq/TJNeeI1dpDuU="/>
+        <field:display field="publish" id="s_ch_emineo_roo_reverse_domain_Subscriptiontype_publish" object="${subscriptiontype}" z="MxH7cD8eqMsYGxrRx8mQ4jGt8Jk="/>
+    </page:show>
+</div>

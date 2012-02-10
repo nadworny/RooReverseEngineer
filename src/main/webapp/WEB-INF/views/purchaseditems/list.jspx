@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ch_emineo_roo_reverse_domain_Purchaseditem" items="${purchaseditems}" z="j1toXKKC4YoS+htQq4VYnjJbfYM=">
+        <table:table data="${purchaseditems}" id="l_ch_emineo_roo_reverse_domain_Purchaseditem" path="/purchaseditems" typeIdFieldName="purchaseditemid" z="sjvDbWXjjXK1y8ukIGDE/COaYto=">
+            <table:column id="c_ch_emineo_roo_reverse_domain_Purchaseditem_users" property="users" z="T7Pq11mP5Ze1t65mDyawLlUqQEY="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Purchaseditem_productthemeProductthemeid" property="productthemeProductthemeid" z="MBwh95hEv/ql0G/6mqPcSjhzh9s="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Purchaseditem_productvariantProductvariantid" property="productvariantProductvariantid" z="NgvCoucpVZHtRWcKSFKUDrSmhks="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Purchaseditem_productProductid" property="productProductid" z="qd7L9AxI17rdfbm5GZsf/BZ6JDk="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Purchaseditem_promotionreferencePromotionid" property="promotionreferencePromotionid" z="myDt2ztEjckwc/94kzkf/AG1Wic="/>
+            <table:column date="true" dateTimePattern="${purchaseditem_acquisitiondate_date_format}" id="c_ch_emineo_roo_reverse_domain_Purchaseditem_acquisitiondate" property="acquisitiondate" z="PUaIt7co5hWp4T6HYsANGUhb0Q0="/>
+        </table:table>
+    </page:list>
+</div>

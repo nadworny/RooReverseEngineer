@@ -1,0 +1,29 @@
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-02-09 15:24:41
+project --topLevelPackage ch.emineo.roo.reverse --projectName ReverseEngineer --java 6 --packaging JAR
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-02-09 15:24:42
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-02-09 15:27:02
+hint
+jpa setup --database MSSQL --provider HIBERNATE 
+// [failed] database introspect --schema roo
+jpa setup --database MYSQL --provider HIBERNATE 
+// [failed] database introspect --schema roo
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml.zip
+osgi obr start --bundleSymbolicName org.springframework.roo.wrapping.mysql-connector-java
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml.zip
+addon install id 01
+database introspect --schema roo
+database reverse engineer --schema roo --package ch.emineo.roo.reverse --testAutomatically
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-02-09 16:47:04
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-02-09 16:48:26
+database reverse engineer --schema roo --package ch.emineo.roo.reverse.domain --testAutomatically
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-02-10 09:45:19
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-02-10 09:46:03
+hint
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-02-10 10:02:11
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-02-10 10:04:04
+hint
+web mvc setup
+web mvc all --package ch.emineo.roo.reverse.web
+jpa setup --database MYSQL --provider ECLIPSELINK 
+logging setup --level INFO 
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-02-10 10:43:27

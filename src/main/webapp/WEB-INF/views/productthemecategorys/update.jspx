@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ch_emineo_roo_reverse_domain_Productthemecategory" idField="productthemecategoryid" modelAttribute="productthemecategory" path="/productthemecategorys" versionField="none" z="7hW+NqV27glkahngr0FQX5QGMh8=">
+        <field:simple field="productthemeProductthemecategories" id="c_ch_emineo_roo_reverse_domain_Productthemecategory_productthemeProductthemecategories" messageCode="entity_reference_not_managed" messageCodeAttribute="Producttheme Productthemecategory" z="Hv0ExVk8FsHJto6lZCVa26ip00I="/>
+        <field:simple field="productthemecategoryAttributes" id="c_ch_emineo_roo_reverse_domain_Productthemecategory_productthemecategoryAttributes" messageCode="entity_reference_not_managed" messageCodeAttribute="Productthemecategory Attribute" z="7oACVtRsODKmKGFanlOyRgXAMTU="/>
+        <field:simple field="productthemecategoryProductthemesubcategories" id="c_ch_emineo_roo_reverse_domain_Productthemecategory_productthemecategoryProductthemesubcategories" messageCode="entity_reference_not_managed" messageCodeAttribute="Productthemecategory Productthemesubcategory" z="fb4YT5+LLRR3A6+vWT8YhAGNuYI="/>
+        <field:checkbox field="online" id="c_ch_emineo_roo_reverse_domain_Productthemecategory_online" z="bgyCzHNOh+6alEfNLiIWdBTZnUU="/>
+        <field:checkbox field="public1" id="c_ch_emineo_roo_reverse_domain_Productthemecategory_public1" z="e8x2AAiannx021DvtEVJVYdkmzU="/>
+    </form:update>
+</div>

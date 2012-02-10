@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ch_emineo_roo_reverse_domain_Productbuild" modelAttribute="productbuild" path="/productbuilds" render="${empty dependencies}" z="+hule/jlYLhnPXUAaYhgxgBt+sI=">
+        <field:simple field="products" id="c_ch_emineo_roo_reverse_domain_Productbuild_products" messageCode="entity_reference_not_managed" messageCodeAttribute="Product" z="+0B/uoTDdvjs37khcUXCUoSq2u0="/>
+        <field:simple field="productbuildAttributes" id="c_ch_emineo_roo_reverse_domain_Productbuild_productbuildAttributes" messageCode="entity_reference_not_managed" messageCodeAttribute="Productbuild Attribute" z="16/2VKyFKxDVNhtJmfIcx1aYdZY="/>
+        <field:simple field="productbuildProductbuildelements" id="c_ch_emineo_roo_reverse_domain_Productbuild_productbuildProductbuildelements" messageCode="entity_reference_not_managed" messageCodeAttribute="Productbuild Productbuildelement" z="dqx9jY218QylABme1Y1QGlpSSfg="/>
+        <field:simple field="productthemecontentholders" id="c_ch_emineo_roo_reverse_domain_Productbuild_productthemecontentholders" messageCode="entity_reference_not_managed" messageCodeAttribute="Productthemecontentholder" z="isM0wtmdeWGPKfAF4cwJGzCFsMg="/>
+        <field:checkbox field="online" id="c_ch_emineo_roo_reverse_domain_Productbuild_online" z="sRY8tQW/4PEOSUzxZ6sQchQcOWo="/>
+        <field:input field="picturepath" id="c_ch_emineo_roo_reverse_domain_Productbuild_picturepath" z="LnpCDINdyHzn2Ii2C9HbJRLCeIs="/>
+        <field:checkbox field="public1" id="c_ch_emineo_roo_reverse_domain_Productbuild_public1" z="nVfcQvCZHNCrycnxO2dNT2Djt9Y="/>
+        <field:checkbox field="sample" id="c_ch_emineo_roo_reverse_domain_Productbuild_sample" z="yEoK+wUmxMAszR8DSxdR1HtKX5I="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ch_emineo_roo_reverse_domain_Productbuild" render="${not empty dependencies}" z="BzoAqPzjc08szCj7Ce52cRQUcvM="/>
+</div>

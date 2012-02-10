@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ch_emineo_roo_reverse_domain_ProductthemeProductvariant" modelAttribute="productthemeProductvariant" path="/productthemeproductvariants" versionField="none" z="/fIfcjZI06WcxBCcq9ugWHA4YBo=">
+        <field:select field="variantsProductvariantid" id="c_ch_emineo_roo_reverse_domain_ProductthemeProductvariant_variantsProductvariantid" itemValue="productvariantid" items="${productvariants}" path="/productvariants" z="DwdXLfrEfYIKD0f/Ba34oIVi7x0="/>
+    </form:update>
+</div>

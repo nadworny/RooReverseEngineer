@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ch_emineo_roo_reverse_domain_Producttheme" idField="productthemeid" modelAttribute="producttheme" path="/productthemes" versionField="none" z="NcT1lR9Sq/jIs47em224KODKc/s=">
+        <field:select field="productthemesapinfoes" id="c_ch_emineo_roo_reverse_domain_Producttheme_productthemesapinfoes" itemValue="productthemesapinfoid" items="${productthemesapinfoes}" multiple="true" path="/productthemesapinfoes" z="HzGHjAMV/DUoQLsZNeVK4/yjUYA="/>
+        <field:simple field="productthemeAttributes" id="c_ch_emineo_roo_reverse_domain_Producttheme_productthemeAttributes" messageCode="entity_reference_not_managed" messageCodeAttribute="Producttheme Attribute" z="zGaixNAIaFBFDH9N8Sk7kd3SdYE="/>
+        <field:simple field="productthemeProductthemecategories" id="c_ch_emineo_roo_reverse_domain_Producttheme_productthemeProductthemecategories" messageCode="entity_reference_not_managed" messageCodeAttribute="Producttheme Productthemecategory" z="cDScQv1t3TlEFwVYpI+vSL0QVPU="/>
+        <field:simple field="productthemeProductvariants" id="c_ch_emineo_roo_reverse_domain_Producttheme_productthemeProductvariants" messageCode="entity_reference_not_managed" messageCodeAttribute="Producttheme Productvariant" z="881LHW8n9T1MmXBHP/ehla3icps="/>
+        <field:simple field="promotions" id="c_ch_emineo_roo_reverse_domain_Producttheme_promotions" messageCode="entity_reference_not_managed" messageCodeAttribute="Promotion" z="rRARvawIGP4SzkWTWcprqP3TqQE="/>
+        <field:simple field="purchaseditems" id="c_ch_emineo_roo_reverse_domain_Producttheme_purchaseditems" messageCode="entity_reference_not_managed" messageCodeAttribute="Purchaseditem" z="Z0IaRUjJ48bNyYsqsOw/jE2K7L0="/>
+        <field:checkbox field="online" id="c_ch_emineo_roo_reverse_domain_Producttheme_online" z="3Axs+xbVmmMY8RDGOo4wGf/vc/k="/>
+        <field:input field="picturepath" id="c_ch_emineo_roo_reverse_domain_Producttheme_picturepath" z="X0DkplrU1wDrDKuGJc/XSdsUkjQ="/>
+        <field:checkbox field="public1" id="c_ch_emineo_roo_reverse_domain_Producttheme_public1" z="DH6QOw65iQIzdLnS6Ey4XgbWjkc="/>
+    </form:update>
+</div>

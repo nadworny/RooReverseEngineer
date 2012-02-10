@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ch_emineo_roo_reverse_domain_Transaction" items="${transactions}" z="29i0jYTkCTtkUD87R2rrzATKEVk=">
+        <table:table data="${transactions}" id="l_ch_emineo_roo_reverse_domain_Transaction" path="/transactions" typeIdFieldName="transactionid" z="I9GaBC2RL68o/3YRSSOHVPBpyII=">
+            <table:column id="c_ch_emineo_roo_reverse_domain_Transaction_amount" property="amount" z="X1Y1BDLH6JEb7YF6PJY2gTnEh+o="/>
+            <table:column date="true" dateTimePattern="${transaction_date_date_format}" id="c_ch_emineo_roo_reverse_domain_Transaction_date" property="date" z="0h29/TShfNQFFxYwWRd+QAqUcM8="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Transaction_message" property="message" z="L0NBiwYe8NZpIhM9Cl7ZOB75E0g="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Transaction_transactiontype" property="transactiontype" z="pWEvxV6c27GgNYtMrZ86kRTqIJI="/>
+        </table:table>
+    </page:list>
+</div>

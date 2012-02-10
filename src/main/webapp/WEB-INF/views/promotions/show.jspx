@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ch_emineo_roo_reverse_domain_Promotion" object="${promotion}" path="/promotions" z="J2yaUHoD71Xqq/i0hu5LX+GxI0A=">
+        <field:display field="productthemeProductthemeid" id="s_ch_emineo_roo_reverse_domain_Promotion_productthemeProductthemeid" object="${promotion}" z="+W/Ki+9HTXs+fDDWIB6hxYTv+uo="/>
+        <field:display field="productProductid" id="s_ch_emineo_roo_reverse_domain_Promotion_productProductid" object="${promotion}" z="hw+PS3/cvb3VIhZLe+GbAg0Ayqw="/>
+        <field:display field="online" id="s_ch_emineo_roo_reverse_domain_Promotion_online" object="${promotion}" z="rLPAhYbAnWqF+cWu4EUW5MPAkGs="/>
+        <field:display date="true" dateTimePattern="${promotion_promotionend_date_format}" field="promotionend" id="s_ch_emineo_roo_reverse_domain_Promotion_promotionend" object="${promotion}" z="H/HW3QbjbdU5Xsfntfc4Uv1pTyc="/>
+        <field:display field="promotionname" id="s_ch_emineo_roo_reverse_domain_Promotion_promotionname" object="${promotion}" z="pmTU1JU68hKSdAnOEKprXMoItbs="/>
+        <field:display date="true" dateTimePattern="${promotion_promotionstart_date_format}" field="promotionstart" id="s_ch_emineo_roo_reverse_domain_Promotion_promotionstart" object="${promotion}" z="bEz5WUgh8VqcnzuhTTMt7b7hEnM="/>
+        <field:display field="public1" id="s_ch_emineo_roo_reverse_domain_Promotion_public1" object="${promotion}" z="P6ePllSY9+Un0HTefH/SfAme18E="/>
+    </page:show>
+</div>

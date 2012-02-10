@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ch_emineo_roo_reverse_domain_Purchaseditem" idField="purchaseditemid" modelAttribute="purchaseditem" path="/purchaseditems" versionField="none" z="PSTEfQLkbDFd8NQhX+YA7G0JSoU=">
+        <field:select field="users" id="c_ch_emineo_roo_reverse_domain_Purchaseditem_users" itemValue="userid" items="${users}" multiple="true" path="/users" z="wMpisHph/mDxGetXa2ZL2O1jlkU="/>
+        <field:select field="productthemeProductthemeid" id="c_ch_emineo_roo_reverse_domain_Purchaseditem_productthemeProductthemeid" itemValue="productthemeid" items="${productthemes}" path="/productthemes" z="eqx4HuXPnIlIIUqbyct46FEcseI="/>
+        <field:select field="productvariantProductvariantid" id="c_ch_emineo_roo_reverse_domain_Purchaseditem_productvariantProductvariantid" itemValue="productvariantid" items="${productvariants}" path="/productvariants" z="nv+lUG82jLJu6RRl3xbzPFwxV2c="/>
+        <field:select field="productProductid" id="c_ch_emineo_roo_reverse_domain_Purchaseditem_productProductid" itemValue="productid" items="${products}" path="/products" z="HAR5anD2HXvesFwVvm1eZ+b6Jps="/>
+        <field:select field="promotionreferencePromotionid" id="c_ch_emineo_roo_reverse_domain_Purchaseditem_promotionreferencePromotionid" itemValue="promotionid" items="${promotions}" path="/promotions" z="5FWlRN8XXmVLzGGk+TcdPWNYdjw="/>
+        <field:datetime dateTimePattern="${purchaseditem_acquisitiondate_date_format}" field="acquisitiondate" id="c_ch_emineo_roo_reverse_domain_Purchaseditem_acquisitiondate" z="T1A7krYyuRxCv7sYZTmc0YYTqYM="/>
+        <field:checkbox field="online" id="c_ch_emineo_roo_reverse_domain_Purchaseditem_online" z="ECDzKTfTC15qF1duqLfJY5ROONc="/>
+        <field:checkbox field="promotion" id="c_ch_emineo_roo_reverse_domain_Purchaseditem_promotion" z="mSYH7vRL2JSK3mKk0Y5mZ/Sl60o="/>
+        <field:checkbox field="public1" id="c_ch_emineo_roo_reverse_domain_Purchaseditem_public1" z="V/UuDqZJWVMJWQUuq4EOI+GVR98="/>
+        <field:checkbox field="remindersent" id="c_ch_emineo_roo_reverse_domain_Purchaseditem_remindersent" z="ork7KKtoFZp3xtpTCvkqvZHmiPk="/>
+        <field:input field="type" id="c_ch_emineo_roo_reverse_domain_Purchaseditem_type" z="b6GoiITeDF/gtK+OxdFpkECdVLY="/>
+    </form:update>
+</div>

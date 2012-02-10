@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ch_emineo_roo_reverse_domain_Productthemecontentholder" items="${productthemecontentholders}" z="boT8nFDVQlOEMH143+nMymEy0lI=">
+        <table:table data="${productthemecontentholders}" id="l_ch_emineo_roo_reverse_domain_Productthemecontentholder" path="/productthemecontentholders" typeIdFieldName="productthemecontentholderid" z="h++qs7skwEbNo4zQ8TUOXQ15iSU=">
+            <table:column id="c_ch_emineo_roo_reverse_domain_Productthemecontentholder_productbuildFk" property="productbuildFk" z="zxDwjV+vOXQRxN2SxB4VCKnqX2E="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Productthemecontentholder_online" property="online" z="t69esYdO4L/VwFbHPH570eH5nfo="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Productthemecontentholder_public1" property="public1" z="x2GhxkulkrvdXSSe09/0sO82ZJs="/>
+        </table:table>
+    </page:list>
+</div>

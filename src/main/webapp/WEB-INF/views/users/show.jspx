@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ch_emineo_roo_reverse_domain_User" object="${user}" path="/users" z="Ey4zyFBmacR9EvRbX4W+XdMtp/w=">
+        <field:display field="purchaseditems" id="s_ch_emineo_roo_reverse_domain_User_purchaseditems" object="${user}" z="+GEwR2o1sxS6FmHFtebHaiJT0rY="/>
+        <field:display field="canpaybybill" id="s_ch_emineo_roo_reverse_domain_User_canpaybybill" object="${user}" z="fzihafy18rXbnHb1b2Xzy1Tm/y8="/>
+        <field:display field="city" id="s_ch_emineo_roo_reverse_domain_User_city" object="${user}" z="N0yW04jIPIzrYisXQ5HoEgQ2SvY="/>
+        <field:display field="company" id="s_ch_emineo_roo_reverse_domain_User_company" object="${user}" z="HWI9IrC784pzbIqo4YHClQhB6iI="/>
+        <field:display date="true" dateTimePattern="${user_created_date_format}" field="created" id="s_ch_emineo_roo_reverse_domain_User_created" object="${user}" z="xCaS6Hk7iimjekVvrtRINbbieRg="/>
+        <field:display field="email" id="s_ch_emineo_roo_reverse_domain_User_email" object="${user}" z="t+dtIsMSxyRhR0pFndFWrQYuF5Q="/>
+        <field:display field="firstname" id="s_ch_emineo_roo_reverse_domain_User_firstname" object="${user}" z="dvZbnZKByDn7GTH/AOncljLSS3A="/>
+        <field:display field="fon" id="s_ch_emineo_roo_reverse_domain_User_fon" object="${user}" z="NzUXinEg6rF/rtKi+ZT5xWl9tGg="/>
+        <field:display field="lastname" id="s_ch_emineo_roo_reverse_domain_User_lastname" object="${user}" z="puQobagzkT5FWSKliDGPkXZWYnA="/>
+        <field:display field="licencenumber" id="s_ch_emineo_roo_reverse_domain_User_licencenumber" object="${user}" z="wkbSyZtDzKFoZ7Sv6G0h7o4Ir0w="/>
+        <field:display field="missedlogins" id="s_ch_emineo_roo_reverse_domain_User_missedlogins" object="${user}" z="nUsZwK9rOaEosNABwm3bIsd0XAU="/>
+        <field:display field="mobile" id="s_ch_emineo_roo_reverse_domain_User_mobile" object="${user}" z="/v7AFKTBsg2hoxpYo0xhcR3k0Fw="/>
+        <field:display field="online" id="s_ch_emineo_roo_reverse_domain_User_online" object="${user}" z="SKVW/R1nY69HeRzRifHukkkZcpc="/>
+        <field:display field="password" id="s_ch_emineo_roo_reverse_domain_User_password" object="${user}" z="kovM4B8KBSSvl11r7IjeJ+bVRgs="/>
+        <field:display field="plz" id="s_ch_emineo_roo_reverse_domain_User_plz" object="${user}" z="YbgYV5T9LZ0Osnh4lFc3L7VOBng="/>
+        <field:display field="public1" id="s_ch_emineo_roo_reverse_domain_User_public1" object="${user}" z="JHtIaHhvsl8n4J5stmp4dqPlRLs="/>
+        <field:display field="salutation" id="s_ch_emineo_roo_reverse_domain_User_salutation" object="${user}" z="5A3pPOgZvenWlnJJG+Ah8aBT7cc="/>
+        <field:display field="street" id="s_ch_emineo_roo_reverse_domain_User_street" object="${user}" z="4YWdGfpLlw3YTT41tsnDuW55ysw="/>
+        <field:display field="username" id="s_ch_emineo_roo_reverse_domain_User_username" object="${user}" z="h9AnK/ECJts7Qf9IqC3x6Gc5kWA="/>
+    </page:show>
+</div>

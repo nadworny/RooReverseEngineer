@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ch_emineo_roo_reverse_domain_Advancenotice" items="${advancenotices}" z="HHef4Z43FMPjGr0EMjTz+IwrAA8=">
+        <table:table data="${advancenotices}" id="l_ch_emineo_roo_reverse_domain_Advancenotice" path="/advancenotices" typeIdFieldName="advancenoticeid" z="pEb1b4lCEtnd59qUSfg3s616MZ8=">
+            <table:column date="true" dateTimePattern="${advancenotice_advancenoticestart_date_format}" id="c_ch_emineo_roo_reverse_domain_Advancenotice_advancenoticestart" property="advancenoticestart" z="aFc2n0ofXr7/pyni4xPexBYfSYg="/>
+            <table:column date="true" dateTimePattern="${advancenotice_advancenoticeend_date_format}" id="c_ch_emineo_roo_reverse_domain_Advancenotice_advancenoticeend" property="advancenoticeend" z="4T7CiuBChdUhyQ2MVCyJXy7mVUQ="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Advancenotice_online" property="online" z="yNtvoWc2r7sSj7Hl8BrAF0GMMRI="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Advancenotice_public1" property="public1" z="+em4kWEN0N2VTAH3dfqdJLaOSME="/>
+        </table:table>
+    </page:list>
+</div>

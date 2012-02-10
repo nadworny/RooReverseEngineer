@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ch_emineo_roo_reverse_domain_Transaction" object="${transaction}" path="/transactions" z="QHktHHbui0KU+r7Rp6S0SL6FKHA=">
+        <field:display field="amount" id="s_ch_emineo_roo_reverse_domain_Transaction_amount" object="${transaction}" z="hiLMXLthan8WUERM9dsdnnOSWl8="/>
+        <field:display date="true" dateTimePattern="${transaction_date_date_format}" field="date" id="s_ch_emineo_roo_reverse_domain_Transaction_date" object="${transaction}" z="uAKV7PV60OhYQbJs4QPzuj0JvhA="/>
+        <field:display field="message" id="s_ch_emineo_roo_reverse_domain_Transaction_message" object="${transaction}" z="Vd3xfXow+ddkQSNT0GJdRHQEnrA="/>
+        <field:display field="transactiontype" id="s_ch_emineo_roo_reverse_domain_Transaction_transactiontype" object="${transaction}" z="wBIR1sLuVFTmsHbRzp07U1f+UbI="/>
+    </page:show>
+</div>

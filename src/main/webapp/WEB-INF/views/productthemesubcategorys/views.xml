@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="productthemesubcategorys/list">
+        <put-attribute name="body" value="/WEB-INF/views/productthemesubcategorys/list.jspx"/>
+    </definition>
+<definition extends="default" name="productthemesubcategorys/show">
+        <put-attribute name="body" value="/WEB-INF/views/productthemesubcategorys/show.jspx"/>
+    </definition>
+<definition extends="default" name="productthemesubcategorys/create">
+        <put-attribute name="body" value="/WEB-INF/views/productthemesubcategorys/create.jspx"/>
+    </definition>
+<definition extends="default" name="productthemesubcategorys/update">
+        <put-attribute name="body" value="/WEB-INF/views/productthemesubcategorys/update.jspx"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ch_emineo_roo_reverse_domain_Promotioncode" items="${promotioncodes}" z="1VkQIbiWA7KELiPXmLEr2UDl+1M=">
+        <table:table data="${promotioncodes}" id="l_ch_emineo_roo_reverse_domain_Promotioncode" path="/promotioncodes" typeIdFieldName="promotioncodeid" z="XmE7c3z+WlVB0IR+7waLQDLkB0I=">
+            <table:column id="c_ch_emineo_roo_reverse_domain_Promotioncode_userFk" property="userFk" z="Vo9OG4+dZspTQvWrBF1DU7KJcto="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Promotioncode_promotionFk" property="promotionFk" z="2SC0yRLzm9AHuOyooouy+6NaAaE="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Promotioncode_online" property="online" z="rIIi9MoQZi6kvNMyVZ8wkQNlGaA="/>
+            <table:column id="c_ch_emineo_roo_reverse_domain_Promotioncode_public1" property="public1" z="JXpjp4v7ZLqm4CgvUERY9kaEDX0="/>
+        </table:table>
+    </page:list>
+</div>

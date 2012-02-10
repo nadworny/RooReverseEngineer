@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create compositePkField="id" id="fc_ch_emineo_roo_reverse_domain_ProductbuildProductbuildelement" modelAttribute="productbuildProductbuildelement" path="/productbuildproductbuildelements" render="${empty dependencies}" z="btMMyrtBhCoVlj+Vy7bj98Eeun4=">
+        <field:input disableFormBinding="true" field="id.productbuildProductbuildid" id="c_ch_emineo_roo_reverse_domain_ProductbuildProductbuildelement_id_productbuildProductbuildid" required="true" validationMessageCode="field_invalid_integer" z="kfPe+7pV30p8dMNAaONJNXzFOYY="/>
+        <field:input disableFormBinding="true" field="id.idx" id="c_ch_emineo_roo_reverse_domain_ProductbuildProductbuildelement_id_idx" required="true" validationMessageCode="field_invalid_integer" z="b6HFKn9l54xnF6PcJMxrEu9mKKc="/>
+        <field:select field="productbuildelementsProductbuildelementid" id="c_ch_emineo_roo_reverse_domain_ProductbuildProductbuildelement_productbuildelementsProductbuildelementid" itemValue="productbuildelementid" items="${productbuildelements}" path="/productbuildelements" z="s3Eh6Jtjp5jBglk8Cr7Lgu60jBM="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ch_emineo_roo_reverse_domain_ProductbuildProductbuildelement" render="${not empty dependencies}" z="tY+1MAXGWht94wcfnGUeTlBM9v0="/>
+</div>
